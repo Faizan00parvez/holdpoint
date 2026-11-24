@@ -1,0 +1,1774 @@
+{
+  "recorded": "2026-11-22T14:40:33.271Z",
+  "policy": {
+    "minimumSamples": 20,
+    "abortFraction": 0.1
+  },
+  "candidateShare": 0.2,
+  "trials": [
+    {
+      "name": "faulty",
+      "injectedFaultOrdinals": [
+        3,
+        11,
+        17
+      ],
+      "checkpoints": [
+        {
+          "seq": 15,
+          "status": 503,
+          "version": "candidate",
+          "state": "hold",
+          "samples": 3,
+          "failures": 1
+        },
+        {
+          "seq": 100,
+          "status": 200,
+          "version": "candidate",
+          "state": "abort",
+          "samples": 20,
+          "failures": 3
+        },
+        {
+          "seq": 101,
+          "status": 200,
+          "version": "stable",
+          "state": "abort",
+          "samples": 20,
+          "failures": 3
+        },
+        {
+          "seq": 105,
+          "status": 200,
+          "version": "stable",
+          "state": "abort",
+          "samples": 20,
+          "failures": 3
+        }
+      ],
+      "events": [
+        {
+          "seq": 1,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 0,
+          "failures": 0
+        },
+        {
+          "seq": 2,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 0,
+          "failures": 0
+        },
+        {
+          "seq": 3,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 0,
+          "failures": 0
+        },
+        {
+          "seq": 4,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 0,
+          "failures": 0
+        },
+        {
+          "seq": 5,
+          "status": 200,
+          "version": "candidate",
+          "state": "hold",
+          "samples": 1,
+          "failures": 0
+        },
+        {
+          "seq": 6,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 1,
+          "failures": 0
+        },
+        {
+          "seq": 7,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 1,
+          "failures": 0
+        },
+        {
+          "seq": 8,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 1,
+          "failures": 0
+        },
+        {
+          "seq": 9,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 1,
+          "failures": 0
+        },
+        {
+          "seq": 10,
+          "status": 200,
+          "version": "candidate",
+          "state": "hold",
+          "samples": 2,
+          "failures": 0
+        },
+        {
+          "seq": 11,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 2,
+          "failures": 0
+        },
+        {
+          "seq": 12,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 2,
+          "failures": 0
+        },
+        {
+          "seq": 13,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 2,
+          "failures": 0
+        },
+        {
+          "seq": 14,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 2,
+          "failures": 0
+        },
+        {
+          "seq": 15,
+          "status": 503,
+          "version": "candidate",
+          "state": "hold",
+          "samples": 3,
+          "failures": 1
+        },
+        {
+          "seq": 16,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 3,
+          "failures": 1
+        },
+        {
+          "seq": 17,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 3,
+          "failures": 1
+        },
+        {
+          "seq": 18,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 3,
+          "failures": 1
+        },
+        {
+          "seq": 19,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 3,
+          "failures": 1
+        },
+        {
+          "seq": 20,
+          "status": 200,
+          "version": "candidate",
+          "state": "hold",
+          "samples": 4,
+          "failures": 1
+        },
+        {
+          "seq": 21,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 4,
+          "failures": 1
+        },
+        {
+          "seq": 22,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 4,
+          "failures": 1
+        },
+        {
+          "seq": 23,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 4,
+          "failures": 1
+        },
+        {
+          "seq": 24,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 4,
+          "failures": 1
+        },
+        {
+          "seq": 25,
+          "status": 200,
+          "version": "candidate",
+          "state": "hold",
+          "samples": 5,
+          "failures": 1
+        },
+        {
+          "seq": 26,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 5,
+          "failures": 1
+        },
+        {
+          "seq": 27,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 5,
+          "failures": 1
+        },
+        {
+          "seq": 28,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 5,
+          "failures": 1
+        },
+        {
+          "seq": 29,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 5,
+          "failures": 1
+        },
+        {
+          "seq": 30,
+          "status": 200,
+          "version": "candidate",
+          "state": "hold",
+          "samples": 6,
+          "failures": 1
+        },
+        {
+          "seq": 31,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 6,
+          "failures": 1
+        },
+        {
+          "seq": 32,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 6,
+          "failures": 1
+        },
+        {
+          "seq": 33,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 6,
+          "failures": 1
+        },
+        {
+          "seq": 34,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 6,
+          "failures": 1
+        },
+        {
+          "seq": 35,
+          "status": 200,
+          "version": "candidate",
+          "state": "hold",
+          "samples": 7,
+          "failures": 1
+        },
+        {
+          "seq": 36,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 7,
+          "failures": 1
+        },
+        {
+          "seq": 37,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 7,
+          "failures": 1
+        },
+        {
+          "seq": 38,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 7,
+          "failures": 1
+        },
+        {
+          "seq": 39,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 7,
+          "failures": 1
+        },
+        {
+          "seq": 40,
+          "status": 200,
+          "version": "candidate",
+          "state": "hold",
+          "samples": 8,
+          "failures": 1
+        },
+        {
+          "seq": 41,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 8,
+          "failures": 1
+        },
+        {
+          "seq": 42,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 8,
+          "failures": 1
+        },
+        {
+          "seq": 43,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 8,
+          "failures": 1
+        },
+        {
+          "seq": 44,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 8,
+          "failures": 1
+        },
+        {
+          "seq": 45,
+          "status": 200,
+          "version": "candidate",
+          "state": "hold",
+          "samples": 9,
+          "failures": 1
+        },
+        {
+          "seq": 46,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 9,
+          "failures": 1
+        },
+        {
+          "seq": 47,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 9,
+          "failures": 1
+        },
+        {
+          "seq": 48,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 9,
+          "failures": 1
+        },
+        {
+          "seq": 49,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 9,
+          "failures": 1
+        },
+        {
+          "seq": 50,
+          "status": 200,
+          "version": "candidate",
+          "state": "hold",
+          "samples": 10,
+          "failures": 1
+        },
+        {
+          "seq": 51,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 10,
+          "failures": 1
+        },
+        {
+          "seq": 52,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 10,
+          "failures": 1
+        },
+        {
+          "seq": 53,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 10,
+          "failures": 1
+        },
+        {
+          "seq": 54,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 10,
+          "failures": 1
+        },
+        {
+          "seq": 55,
+          "status": 503,
+          "version": "candidate",
+          "state": "hold",
+          "samples": 11,
+          "failures": 2
+        },
+        {
+          "seq": 56,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 11,
+          "failures": 2
+        },
+        {
+          "seq": 57,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 11,
+          "failures": 2
+        },
+        {
+          "seq": 58,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 11,
+          "failures": 2
+        },
+        {
+          "seq": 59,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 11,
+          "failures": 2
+        },
+        {
+          "seq": 60,
+          "status": 200,
+          "version": "candidate",
+          "state": "hold",
+          "samples": 12,
+          "failures": 2
+        },
+        {
+          "seq": 61,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 12,
+          "failures": 2
+        },
+        {
+          "seq": 62,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 12,
+          "failures": 2
+        },
+        {
+          "seq": 63,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 12,
+          "failures": 2
+        },
+        {
+          "seq": 64,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 12,
+          "failures": 2
+        },
+        {
+          "seq": 65,
+          "status": 200,
+          "version": "candidate",
+          "state": "hold",
+          "samples": 13,
+          "failures": 2
+        },
+        {
+          "seq": 66,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 13,
+          "failures": 2
+        },
+        {
+          "seq": 67,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 13,
+          "failures": 2
+        },
+        {
+          "seq": 68,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 13,
+          "failures": 2
+        },
+        {
+          "seq": 69,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 13,
+          "failures": 2
+        },
+        {
+          "seq": 70,
+          "status": 200,
+          "version": "candidate",
+          "state": "hold",
+          "samples": 14,
+          "failures": 2
+        },
+        {
+          "seq": 71,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 14,
+          "failures": 2
+        },
+        {
+          "seq": 72,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 14,
+          "failures": 2
+        },
+        {
+          "seq": 73,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 14,
+          "failures": 2
+        },
+        {
+          "seq": 74,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 14,
+          "failures": 2
+        },
+        {
+          "seq": 75,
+          "status": 200,
+          "version": "candidate",
+          "state": "hold",
+          "samples": 15,
+          "failures": 2
+        },
+        {
+          "seq": 76,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 15,
+          "failures": 2
+        },
+        {
+          "seq": 77,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 15,
+          "failures": 2
+        },
+        {
+          "seq": 78,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 15,
+          "failures": 2
+        },
+        {
+          "seq": 79,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 15,
+          "failures": 2
+        },
+        {
+          "seq": 80,
+          "status": 200,
+          "version": "candidate",
+          "state": "hold",
+          "samples": 16,
+          "failures": 2
+        },
+        {
+          "seq": 81,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 16,
+          "failures": 2
+        },
+        {
+          "seq": 82,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 16,
+          "failures": 2
+        },
+        {
+          "seq": 83,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 16,
+          "failures": 2
+        },
+        {
+          "seq": 84,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 16,
+          "failures": 2
+        },
+        {
+          "seq": 85,
+          "status": 503,
+          "version": "candidate",
+          "state": "hold",
+          "samples": 17,
+          "failures": 3
+        },
+        {
+          "seq": 86,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 17,
+          "failures": 3
+        },
+        {
+          "seq": 87,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 17,
+          "failures": 3
+        },
+        {
+          "seq": 88,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 17,
+          "failures": 3
+        },
+        {
+          "seq": 89,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 17,
+          "failures": 3
+        },
+        {
+          "seq": 90,
+          "status": 200,
+          "version": "candidate",
+          "state": "hold",
+          "samples": 18,
+          "failures": 3
+        },
+        {
+          "seq": 91,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 18,
+          "failures": 3
+        },
+        {
+          "seq": 92,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 18,
+          "failures": 3
+        },
+        {
+          "seq": 93,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 18,
+          "failures": 3
+        },
+        {
+          "seq": 94,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 18,
+          "failures": 3
+        },
+        {
+          "seq": 95,
+          "status": 200,
+          "version": "candidate",
+          "state": "hold",
+          "samples": 19,
+          "failures": 3
+        },
+        {
+          "seq": 96,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 19,
+          "failures": 3
+        },
+        {
+          "seq": 97,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 19,
+          "failures": 3
+        },
+        {
+          "seq": 98,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 19,
+          "failures": 3
+        },
+        {
+          "seq": 99,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 19,
+          "failures": 3
+        },
+        {
+          "seq": 100,
+          "status": 200,
+          "version": "candidate",
+          "state": "abort",
+          "samples": 20,
+          "failures": 3
+        },
+        {
+          "seq": 101,
+          "status": 200,
+          "version": "stable",
+          "state": "abort",
+          "samples": 20,
+          "failures": 3
+        },
+        {
+          "seq": 102,
+          "status": 200,
+          "version": "stable",
+          "state": "abort",
+          "samples": 20,
+          "failures": 3
+        },
+        {
+          "seq": 103,
+          "status": 200,
+          "version": "stable",
+          "state": "abort",
+          "samples": 20,
+          "failures": 3
+        },
+        {
+          "seq": 104,
+          "status": 200,
+          "version": "stable",
+          "state": "abort",
+          "samples": 20,
+          "failures": 3
+        },
+        {
+          "seq": 105,
+          "status": 200,
+          "version": "stable",
+          "state": "abort",
+          "samples": 20,
+          "failures": 3
+        }
+      ]
+    },
+    {
+      "name": "healthy",
+      "injectedFaultOrdinals": [],
+      "checkpoints": [
+        {
+          "seq": 15,
+          "status": 200,
+          "version": "candidate",
+          "state": "hold",
+          "samples": 3,
+          "failures": 0
+        },
+        {
+          "seq": 100,
+          "status": 200,
+          "version": "candidate",
+          "state": "promote",
+          "samples": 20,
+          "failures": 0
+        },
+        {
+          "seq": 101,
+          "status": 200,
+          "version": "candidate",
+          "state": "promote",
+          "samples": 20,
+          "failures": 0
+        },
+        {
+          "seq": 105,
+          "status": 200,
+          "version": "candidate",
+          "state": "promote",
+          "samples": 20,
+          "failures": 0
+        }
+      ],
+      "events": [
+        {
+          "seq": 1,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 0,
+          "failures": 0
+        },
+        {
+          "seq": 2,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 0,
+          "failures": 0
+        },
+        {
+          "seq": 3,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 0,
+          "failures": 0
+        },
+        {
+          "seq": 4,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 0,
+          "failures": 0
+        },
+        {
+          "seq": 5,
+          "status": 200,
+          "version": "candidate",
+          "state": "hold",
+          "samples": 1,
+          "failures": 0
+        },
+        {
+          "seq": 6,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 1,
+          "failures": 0
+        },
+        {
+          "seq": 7,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 1,
+          "failures": 0
+        },
+        {
+          "seq": 8,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 1,
+          "failures": 0
+        },
+        {
+          "seq": 9,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 1,
+          "failures": 0
+        },
+        {
+          "seq": 10,
+          "status": 200,
+          "version": "candidate",
+          "state": "hold",
+          "samples": 2,
+          "failures": 0
+        },
+        {
+          "seq": 11,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 2,
+          "failures": 0
+        },
+        {
+          "seq": 12,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 2,
+          "failures": 0
+        },
+        {
+          "seq": 13,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 2,
+          "failures": 0
+        },
+        {
+          "seq": 14,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 2,
+          "failures": 0
+        },
+        {
+          "seq": 15,
+          "status": 200,
+          "version": "candidate",
+          "state": "hold",
+          "samples": 3,
+          "failures": 0
+        },
+        {
+          "seq": 16,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 3,
+          "failures": 0
+        },
+        {
+          "seq": 17,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 3,
+          "failures": 0
+        },
+        {
+          "seq": 18,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 3,
+          "failures": 0
+        },
+        {
+          "seq": 19,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 3,
+          "failures": 0
+        },
+        {
+          "seq": 20,
+          "status": 200,
+          "version": "candidate",
+          "state": "hold",
+          "samples": 4,
+          "failures": 0
+        },
+        {
+          "seq": 21,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 4,
+          "failures": 0
+        },
+        {
+          "seq": 22,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 4,
+          "failures": 0
+        },
+        {
+          "seq": 23,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 4,
+          "failures": 0
+        },
+        {
+          "seq": 24,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 4,
+          "failures": 0
+        },
+        {
+          "seq": 25,
+          "status": 200,
+          "version": "candidate",
+          "state": "hold",
+          "samples": 5,
+          "failures": 0
+        },
+        {
+          "seq": 26,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 5,
+          "failures": 0
+        },
+        {
+          "seq": 27,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 5,
+          "failures": 0
+        },
+        {
+          "seq": 28,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 5,
+          "failures": 0
+        },
+        {
+          "seq": 29,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 5,
+          "failures": 0
+        },
+        {
+          "seq": 30,
+          "status": 200,
+          "version": "candidate",
+          "state": "hold",
+          "samples": 6,
+          "failures": 0
+        },
+        {
+          "seq": 31,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 6,
+          "failures": 0
+        },
+        {
+          "seq": 32,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 6,
+          "failures": 0
+        },
+        {
+          "seq": 33,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 6,
+          "failures": 0
+        },
+        {
+          "seq": 34,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 6,
+          "failures": 0
+        },
+        {
+          "seq": 35,
+          "status": 200,
+          "version": "candidate",
+          "state": "hold",
+          "samples": 7,
+          "failures": 0
+        },
+        {
+          "seq": 36,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 7,
+          "failures": 0
+        },
+        {
+          "seq": 37,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 7,
+          "failures": 0
+        },
+        {
+          "seq": 38,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 7,
+          "failures": 0
+        },
+        {
+          "seq": 39,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 7,
+          "failures": 0
+        },
+        {
+          "seq": 40,
+          "status": 200,
+          "version": "candidate",
+          "state": "hold",
+          "samples": 8,
+          "failures": 0
+        },
+        {
+          "seq": 41,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 8,
+          "failures": 0
+        },
+        {
+          "seq": 42,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 8,
+          "failures": 0
+        },
+        {
+          "seq": 43,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 8,
+          "failures": 0
+        },
+        {
+          "seq": 44,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 8,
+          "failures": 0
+        },
+        {
+          "seq": 45,
+          "status": 200,
+          "version": "candidate",
+          "state": "hold",
+          "samples": 9,
+          "failures": 0
+        },
+        {
+          "seq": 46,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 9,
+          "failures": 0
+        },
+        {
+          "seq": 47,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 9,
+          "failures": 0
+        },
+        {
+          "seq": 48,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 9,
+          "failures": 0
+        },
+        {
+          "seq": 49,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 9,
+          "failures": 0
+        },
+        {
+          "seq": 50,
+          "status": 200,
+          "version": "candidate",
+          "state": "hold",
+          "samples": 10,
+          "failures": 0
+        },
+        {
+          "seq": 51,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 10,
+          "failures": 0
+        },
+        {
+          "seq": 52,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 10,
+          "failures": 0
+        },
+        {
+          "seq": 53,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 10,
+          "failures": 0
+        },
+        {
+          "seq": 54,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 10,
+          "failures": 0
+        },
+        {
+          "seq": 55,
+          "status": 200,
+          "version": "candidate",
+          "state": "hold",
+          "samples": 11,
+          "failures": 0
+        },
+        {
+          "seq": 56,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 11,
+          "failures": 0
+        },
+        {
+          "seq": 57,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 11,
+          "failures": 0
+        },
+        {
+          "seq": 58,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 11,
+          "failures": 0
+        },
+        {
+          "seq": 59,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 11,
+          "failures": 0
+        },
+        {
+          "seq": 60,
+          "status": 200,
+          "version": "candidate",
+          "state": "hold",
+          "samples": 12,
+          "failures": 0
+        },
+        {
+          "seq": 61,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 12,
+          "failures": 0
+        },
+        {
+          "seq": 62,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 12,
+          "failures": 0
+        },
+        {
+          "seq": 63,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 12,
+          "failures": 0
+        },
+        {
+          "seq": 64,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 12,
+          "failures": 0
+        },
+        {
+          "seq": 65,
+          "status": 200,
+          "version": "candidate",
+          "state": "hold",
+          "samples": 13,
+          "failures": 0
+        },
+        {
+          "seq": 66,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 13,
+          "failures": 0
+        },
+        {
+          "seq": 67,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 13,
+          "failures": 0
+        },
+        {
+          "seq": 68,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 13,
+          "failures": 0
+        },
+        {
+          "seq": 69,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 13,
+          "failures": 0
+        },
+        {
+          "seq": 70,
+          "status": 200,
+          "version": "candidate",
+          "state": "hold",
+          "samples": 14,
+          "failures": 0
+        },
+        {
+          "seq": 71,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 14,
+          "failures": 0
+        },
+        {
+          "seq": 72,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 14,
+          "failures": 0
+        },
+        {
+          "seq": 73,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 14,
+          "failures": 0
+        },
+        {
+          "seq": 74,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 14,
+          "failures": 0
+        },
+        {
+          "seq": 75,
+          "status": 200,
+          "version": "candidate",
+          "state": "hold",
+          "samples": 15,
+          "failures": 0
+        },
+        {
+          "seq": 76,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 15,
+          "failures": 0
+        },
+        {
+          "seq": 77,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 15,
+          "failures": 0
+        },
+        {
+          "seq": 78,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 15,
+          "failures": 0
+        },
+        {
+          "seq": 79,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 15,
+          "failures": 0
+        },
+        {
+          "seq": 80,
+          "status": 200,
+          "version": "candidate",
+          "state": "hold",
+          "samples": 16,
+          "failures": 0
+        },
+        {
+          "seq": 81,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 16,
+          "failures": 0
+        },
+        {
+          "seq": 82,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 16,
+          "failures": 0
+        },
+        {
+          "seq": 83,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 16,
+          "failures": 0
+        },
+        {
+          "seq": 84,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 16,
+          "failures": 0
+        },
+        {
+          "seq": 85,
+          "status": 200,
+          "version": "candidate",
+          "state": "hold",
+          "samples": 17,
+          "failures": 0
+        },
+        {
+          "seq": 86,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 17,
+          "failures": 0
+        },
+        {
+          "seq": 87,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 17,
+          "failures": 0
+        },
+        {
+          "seq": 88,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 17,
+          "failures": 0
+        },
+        {
+          "seq": 89,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 17,
+          "failures": 0
+        },
+        {
+          "seq": 90,
+          "status": 200,
+          "version": "candidate",
+          "state": "hold",
+          "samples": 18,
+          "failures": 0
+        },
+        {
+          "seq": 91,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 18,
+          "failures": 0
+        },
+        {
+          "seq": 92,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 18,
+          "failures": 0
+        },
+        {
+          "seq": 93,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 18,
+          "failures": 0
+        },
+        {
+          "seq": 94,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 18,
+          "failures": 0
+        },
+        {
+          "seq": 95,
+          "status": 200,
+          "version": "candidate",
+          "state": "hold",
+          "samples": 19,
+          "failures": 0
+        },
+        {
+          "seq": 96,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 19,
+          "failures": 0
+        },
+        {
+          "seq": 97,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 19,
+          "failures": 0
+        },
+        {
+          "seq": 98,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 19,
+          "failures": 0
+        },
+        {
+          "seq": 99,
+          "status": 200,
+          "version": "stable",
+          "state": "hold",
+          "samples": 19,
+          "failures": 0
+        },
+        {
+          "seq": 100,
+          "status": 200,
+          "version": "candidate",
+          "state": "promote",
+          "samples": 20,
+          "failures": 0
+        },
+        {
+          "seq": 101,
+          "status": 200,
+          "version": "candidate",
+          "state": "promote",
+          "samples": 20,
+          "failures": 0
+        },
+        {
+          "seq": 102,
+          "status": 200,
+          "version": "candidate",
+          "state": "promote",
+          "samples": 20,
+          "failures": 0
+        },
+        {
+          "seq": 103,
+          "status": 200,
+          "version": "candidate",
+          "state": "promote",
+          "samples": 20,
+          "failures": 0
+        },
+        {
+          "seq": 104,
+          "status": 200,
+          "version": "candidate",
+          "state": "promote",
+          "samples": 20,
+          "failures": 0
+        },
+        {
+          "seq": 105,
+          "status": 200,
+          "version": "candidate",
+          "state": "promote",
+          "samples": 20,
+          "failures": 0
+        }
+      ]
+    }
+  ]
+}
